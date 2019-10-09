@@ -9,7 +9,7 @@ class Notificacao(object):
         #             notificação grande
         #                 '''
         art = fg(font='epic')
-        print(art.renderText('\033[33mNotificacion de status\033[m'))
+        print(art.renderText('Notificação de status'))
 
 if __name__ == '__main__':
     notificacao = Notificacao()
