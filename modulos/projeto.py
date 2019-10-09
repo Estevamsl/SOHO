@@ -1,7 +1,7 @@
 from time import sleep as sp
-from modulos import __not__.Notificacao as nt
-from modulos import __dados__.Dados as dd
+from __dados__ import Dados as dd
 from os import system as st
+
 
 class Ostra(object):
     st('cls')
@@ -19,14 +19,10 @@ class Ostra(object):
             self.temperatura += 1
             # st('cls')
             if self.temperatura >= 31:
-                print(f'\033[31mQue pena, a ostra está morta\033[m')
+                print(f'\033[31mQue pena, a ostra está morta. \nEla teve uma temperatura de {self.temperatura} graus célsius\033[m')
                 break
         
 
 if __name__ == '__main__':
-    def main():
-        notificacao = nt()
-        notificacao.__noti__
-        ostra = Ostra(20)
-        ostra.__not__()
-    main()
+    ostra = Ostra(20)
+    ostra.__not__()
