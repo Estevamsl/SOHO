@@ -3,10 +3,8 @@ from modulos import __not__.Notificacao as nt
 from modulos import __dados__.Dados as dd
 from os import system as st
 
-st('cls')
-
 class Ostra(object):
-    
+    st('cls')
     def __init__(self, temperatura):
         self.temperatura = temperatura
         self.contador = 0
