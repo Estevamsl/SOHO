@@ -1,5 +1,6 @@
-from modulos import projeto.Ostra as po
+from projeto import * 
 from os import system as st
+from __not__ import *
 st('cls')
 
 def main():
@@ -18,17 +19,18 @@ def main():
         ostra = Ostra(temp)
         ostra.__not__()
 
-        while True:
-            resp = ' '
-            resp = str(input('Deseja continuar [S/N]: ')).strip().title()
+        resp = ' '
+        resp = str(input('Deseja continuar [S/N]: ')).strip().title()
+        st('cls')
+        while resp not in 'SsNn':
+            resp = str(input('\033[31mERRO digite novamente, para continuar [S/N]: ')).strip().title()
             st('cls')
-            while resp not in 'SsNn':
-                resp = str(input('\033[31mERRO digite novamente, para continuar [S/N]: ')).strip().title()
-                st('cls')
-            if resp in 'Nn':
-                break
+        if resp in 'Nn':
+            break
 
 if __name__ == '__main__':
+    notificacao = Notificacao()
+    notificacao.__noti__()
     main()
 else:
     pass
