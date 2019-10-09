@@ -10,7 +10,7 @@ class Dados(object):
         return f'A ostra com o nome de {self.nome} pertence ao {self.dono}'
 
     def __str__(self):
-        return f'A ostra {self.nome} está localizada em {self.localidade} no ano de {self.data}'
+        return f'A {self.nome} está localizada em {self.localidade} no ano de {self.data}'
 
 if __name__ == '__main__':
     dados = Dados('Ostrinha', 'Florianópolis', 'SOHO')

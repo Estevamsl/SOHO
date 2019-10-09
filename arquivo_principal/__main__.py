@@ -1,4 +1,4 @@
-from projeto import *
+from modulos import projeto.Ostra as po
 from os import system as st
 st('cls')
 
@@ -15,7 +15,7 @@ def main():
             else:
                 return 'Continuando...'
         
-        ostra = Ostra(temp)
+        ostra = po(temp)
         ostra.__not__()
 
         while True:
