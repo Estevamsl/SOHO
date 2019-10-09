@@ -5,9 +5,9 @@ class Notificacao(object):
         __doc__ = ''' pip install pyfiglet '''
         
     def __noti__(self):
-        __doc__ = '''
-                    notificação grande
-                        '''
+        # __doc__ = '''
+        #             notificação grande
+        #                 '''
         art = fg(font='epic')
         print(art.renderText('\033[33mNotificacion de status\033[m'))
 

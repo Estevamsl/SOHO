@@ -15,7 +15,7 @@ def main():
             else:
                 return 'Continuando...'
         
-        ostra = po(temp)
+        ostra = Ostra(temp)
         ostra.__not__()
 
         while True:
