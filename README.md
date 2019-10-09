@@ -1,4 +1,5 @@
 Desafio Ciclix Devs MMXIX
+
 Uma produtora de ostra da Grande Florianópolis deseja melhorar o processo de criação das suas
 ostras. Notou-se que as ostras são extremamente sensíveis as temperaturas do oceano e, portanto,
 seria interessante monitorar a temperatura do mar. A temperatura de stress de uma ostra é de
