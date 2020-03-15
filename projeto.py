@@ -1,7 +1,6 @@
 from time import sleep as sp
 from __dados__ import Dados as dd
 from os import system as st
-import pymysql.cursors
 
 
 class Ostra(object):
